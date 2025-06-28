@@ -2,6 +2,7 @@
   "name": "ai-conventional-commit",
   "displayName": "AI Conventional Commit",
   "publisher": "AIConventionalCommit",
+  "icon": "icon.png",
   "description": "AI-powered commit message generator using git diffs. Works with any LLM provider to generate conventional and descriptive commit messages. 100% customizable and privacy-respecting.",
   "version": "0.0.1",
   "engines": {
