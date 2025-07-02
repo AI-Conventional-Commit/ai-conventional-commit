@@ -1,33 +1,37 @@
-Thank you for considering contributing to AI Conventional Commit!
+# Contributing to AI Conventional Commit
 
-How to Contribute
+Thank you for considering contributing to **AI Conventional Commit**! 🚀  
+We welcome issues, ideas, pull requests, and feedback of all kinds.
 
-Bug Reports: Please include a clear and descriptive title and thorough description.
+---
 
-Feature Requests: Explain your idea and why it would be useful. Remember, any idea it always might be useful.
+## 📌 Quick Guidelines
 
-Pull Requests:
+### 🐞 Bug Reports
+- Provide a **clear title** and a **detailed description**.
+- Include steps to reproduce the issue, expected vs actual behavior, and environment info.
 
-Fork the repo and create your branch from main.
+### 💡 Feature Requests
+- Describe the feature, its motivation, and potential use cases.
+- All ideas are welcome!
 
-Follow our code style (TypeScript + ESLint).
+---
 
-Include tests and documentation where appropriate.
+## 🚀 Pull Requests
 
-Keep commits clear and conventional.
+> **Important:** Please submit pull requests to the `develop` branch, **not** `main`.
 
-Submit your PR and describe the change.
+1. **Fork** the repo and create a new branch from `develop`.
+2. Follow our code style (TypeScript + ESLint).
+3. Include tests and documentation where appropriate.
+4. Keep commits clear and [conventional](https://www.conventionalcommits.org/en/v1.0.0/).
+5. Submit your PR with a clear description of the change.
 
-Project Structure
+---
 
-src/ – main extension code
+## 📁 Project Structure
 
-resources/ – auxiliary prompts and language files
-
-dist/ – compiled output (do not edit manually)
-
-Code Style
-
-Follow ESLint rules
-
-Use Conventional Commits for commit messages
+```plaintext
+src/        – Main extension code
+resources/  – Prompt files, language templates, and other assets
+dist/       – Compiled output (do not edit manually)

@@ -6,6 +6,22 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [0.0.2] - 2025-06-28
+
+### Added
+- Loading indicator while generating commit message.
+- GitHub Actions workflows for `build` and `publish` steps.
+- Contribution guidelines (`CONTRIBUTING.md`), Code of Conduct, Security Policy, and Support files.
+
+### Changed
+- Generate Command button now uses the same icon as the extension for visual consistency.
+- Updated extension icon (SVG → PNG) for better compatibility.
+- Improved documentation with new badges, setup guidance, and organizational links.
+
+### Chore
+- Bumped version to `0.0.2`.
+- Updated repository and homepage URLs in `package.json`.
+
 ### Added
 - Support for configuring preferred model (planned).
 - Improved prompts structure (planned).
