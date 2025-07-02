@@ -1,11 +1,15 @@
 name: Publish Extension
 
 on:
-  push:
-    branches: [main]
+  pull_request:
+    types: [closed]
+    branches:
+      - main
 
 jobs:
   publish:
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
+    name: Publish to VSCode Marketplace
     runs-on: ubuntu-latest
 
     steps:
